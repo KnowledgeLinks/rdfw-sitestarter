@@ -95,6 +95,7 @@ def main(args):
     ssl_context = 'adhoc'
     app.run(host=host,
             port=port,
+            #threaded=True, 
             #ssl_context=ssl_context,
             debug=True)
 
